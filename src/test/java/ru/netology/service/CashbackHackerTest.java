@@ -1,7 +1,6 @@
 package ru.netology.service;
 
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class CashbackHackerTest {
@@ -25,7 +24,6 @@ public class CashbackHackerTest {
     }
 
     @Test
-    @Ignore
     public void shouldWriteAmountIsBoundary() {
         CashbackHacker service = new CashbackHacker();
         int expected = 0;
